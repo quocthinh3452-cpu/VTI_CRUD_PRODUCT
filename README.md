@@ -50,6 +50,7 @@ CREATE TABLE products (
 INSERT INTO products (name, price, quantity) VALUES ('Laptop', 1500.00, 10);
 INSERT INTO products (name, price, quantity) VALUES ('Smartphone', 800.00, 20);
 INSERT INTO products (name, price, quantity) VALUES ('Tablet', 500.00, 15);
+```
 ### 2) Cấu hình kết nối CSDL
 
 Mở file `ProductManagerUI.java` và tìm đến hàm `connectToDatabase()`. Bạn cần chỉnh sửa thông tin đăng nhập cho khớp với MySQL trên máy của bạn:
