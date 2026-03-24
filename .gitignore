@@ -1,0 +1,35 @@
+# Compiled class file
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.metadata
+bin/
+.settings/
+.classpath
+.project
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# Logs
+*.log
